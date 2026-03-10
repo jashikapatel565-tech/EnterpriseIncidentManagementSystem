@@ -1,0 +1,71 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.eggs/
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# SQLite database
+*.db
+
+# Generated reports
+backend/resolved_incidents_report.csv
+
+# Logs
+*.log
+backend/backend.log
+
+# Test scripts
+backend/test_create.py
+backend/test_auth.py
+backend/check_db.py
+backend/view_db.py
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Desktop.ini
+Thumbs.db
